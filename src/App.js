@@ -37,7 +37,7 @@ function App() {
                   href="https://docs.google.com/document/d/1I2QDZiQLIdRP37vZdvSvf44ZMLerR7lyCXveO8oosdg/edit?usp=sharing"
                   target="_blank"
                 >
-                  View Resume{" "}
+                  View Resumee{" "}
                 </a>
                 <FiArrowUpRight />
               </button>
