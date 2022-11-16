@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/nayeem-portfolio/static/css/main.9c3afcd8.css",
+    "main.js": "/nayeem-portfolio/static/js/main.7f10ee28.js",
+    "static/js/787.e5fb2298.chunk.js": "/nayeem-portfolio/static/js/787.e5fb2298.chunk.js",
+    "static/media/hero.png": "/nayeem-portfolio/static/media/hero.aee0f771fbfc1e7b8fa8.png",
+    "index.html": "/nayeem-portfolio/index.html",
+    "main.9c3afcd8.css.map": "/nayeem-portfolio/static/css/main.9c3afcd8.css.map",
+    "main.7f10ee28.js.map": "/nayeem-portfolio/static/js/main.7f10ee28.js.map",
+    "787.e5fb2298.chunk.js.map": "/nayeem-portfolio/static/js/787.e5fb2298.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9c3afcd8.css",
+    "static/js/main.7f10ee28.js"
+  ]
+}
