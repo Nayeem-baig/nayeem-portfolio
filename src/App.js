@@ -1,22 +1,30 @@
 import { Col, Row } from "react-bootstrap";
 import "./App.css";
 import Navi from "./components/Navi";
-import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
+import { AiFillLinkedin, AiFillGithub, AiOutlineMail } from "react-icons/ai";
 import { FiArrowUpRight } from "react-icons/fi";
+import ContactForm from "./components/ContactForm";
+import ReactTypingEffect from "react-typing-effect";
+import MyDetails from "./components/Email";
+import Call from "./components/Call";
 
 function App() {
   return (
-    <div className="App d-flex wd-100 ">
+    <div className="App">
       <Row>
         <div className="mb-5">
           <Navi />
         </div>
         <Col>
-          <div className="info  nunito align-self-center mt-5">
-            <div className="intro  txt5">Hi, I am Nayeem Baig</div>
-            <p className="aboutMe ml-5 mr-5">
-              I'm passionate web developer having an experience <br/> of web
-              applications with React.js {"&"} Node.js
+          <div className="info nunito bold align-self-center mt-5">
+            <ReactTypingEffect
+              className="intro black txt5"
+              text={["Hi, I am Nayeem Baig..."]}
+            />
+            <p className="aboutMe gray txt3">
+              I'm passionate web developer having an experience <br /> of web
+              applications with React.js {"&"} Node.js. <br />
+              This is my portfolio also built using React.js.
             </p>
             <div className="networks txt3">
               <a
@@ -37,7 +45,7 @@ function App() {
                   href="https://docs.google.com/document/d/1I2QDZiQLIdRP37vZdvSvf44ZMLerR7lyCXveO8oosdg/edit?usp=sharing"
                   target="_blank"
                 >
-                  View Resumee{" "}
+                  View Resume{" "}
                 </a>
                 <FiArrowUpRight />
               </button>
@@ -55,6 +63,14 @@ function App() {
             </div>
           </div>
         </Col>
+        <div className="d-flex txt10 blue oswald">
+          Get in touch
+          </div>
+        <MyDetails />
+        <Call/>
+        <div>
+      <ContactForm />
+    </div>
       </Row>
     </div>
   );
