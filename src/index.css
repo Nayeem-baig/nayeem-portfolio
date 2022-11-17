@@ -41,7 +41,10 @@ code {
 }
 .txtDecNon {
   text-decoration: none;
-  
+}
+.sticky-nav {
+  position: sticky;
+  top: 0;
 }
 .aboutMe {
   width: 100%;

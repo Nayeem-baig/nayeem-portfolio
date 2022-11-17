@@ -1,4 +1,4 @@
-import { Col, Row } from "react-bootstrap";
+import { Button, Col, Row } from "react-bootstrap";
 import "./App.css";
 import Navi from "./components/Navi";
 import { AiFillLinkedin, AiFillGithub, AiOutlineMail } from "react-icons/ai";
@@ -7,6 +7,7 @@ import ContactForm from "./components/ContactForm";
 import ReactTypingEffect from "react-typing-effect";
 import MyDetails from "./components/Email";
 import Call from "./components/Call";
+import { ReactComponent as Contactme } from "./assets/Contactme.svg";
 
 function App() {
   return (
@@ -37,18 +38,17 @@ function App() {
                 <AiFillGithub />
               </a>
             </div>
-            <div className="resume  txtDecNon">
-              <button type="button" class="btn btn-light">
+            <div className="resume">
+              <Button>
                 {" "}
                 <a
-                  className="txtDecNon"
+                  className="white txtDecNon"
                   href="https://docs.google.com/document/d/1I2QDZiQLIdRP37vZdvSvf44ZMLerR7lyCXveO8oosdg/edit?usp=sharing"
-                  target="_blank"
-                >
-                  View Resume{" "}
-                </a>
+                  target="_blank">
+                  View Resume
                 <FiArrowUpRight />
-              </button>
+                </a>
+              </Button>
             </div>
           </div>
         </Col>
@@ -63,15 +63,41 @@ function App() {
             </div>
           </div>
         </Col>
-        <div className="d-flex txt10 blue oswald">
-          Get in touch
-          </div>
-        <MyDetails />
-        <Call/>
-        <div>
-      <ContactForm />
-    </div>
       </Row>
+
+      {/*  */}
+      <Row>
+        <Col>
+          <div className="heroimg mb-5">
+            <div>
+              <Contactme width="500" height="350" />
+            </div>
+          </div>
+        </Col>
+        <Col>
+          <div className="m-5 d-flex flex-column align-self-center">
+            <p className="d-flex txt10 blue oswald">Get in touch</p>
+            <MyDetails />
+            <Call />
+            <ContactForm />
+          </div>
+        </Col>
+      </Row>
+      {/* <Row>
+          <Col>
+        <div className="d-flex flex-row">
+        <div className="d-flex">
+          
+        </div>
+        <div className="m-5 d-flex flex-column align-self-center">
+          <p className="d-flex txt10 blue oswald">Get in touch</p>
+          <MyDetails />
+          <Call />
+          <ContactForm />
+        </div>
+        </div>
+          </Col>
+        </Row> */}
     </div>
   );
 }

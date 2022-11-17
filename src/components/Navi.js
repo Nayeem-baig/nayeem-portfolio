@@ -4,7 +4,7 @@ import Navbar from "react-bootstrap/Navbar";
 import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 function Navi() {
   return (
-    <Navbar className="d-flex justify-content-around" collapseOnSelect expand="lg" bg="dark" variant="dark">
+    <Navbar className="d-flex fixed-top" sticky="top" collapseOnSelect expand="lg" bg="dark" variant="dark">
       <Container>
         <div className="navname white txt5 tilt">
           <p>Nayeem Baig</p>
