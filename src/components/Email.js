@@ -3,7 +3,7 @@ import { AiOutlineMail } from "react-icons/ai";
 
 const MyDetails = () => {
   return (
-    <div className="d-flex ">
+    <div className="d-flex mb-5">
       <div className="">
         <AiOutlineMail className="txt10" />
       </div>

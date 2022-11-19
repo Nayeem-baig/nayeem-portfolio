@@ -1,6 +1,5 @@
 body {
-  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-  background-size: 400% 400%;
+  background: white;
   animation: gradient 15s ease infinite;
 
   margin: 0;
@@ -22,7 +21,7 @@ code {
   font-family: "Nunito", sans-serif;
 }
 .navname {
-  font-family: "Kolker Brush", cursive;
+  font-family: 'Rubik Distressed', cursive;
 }
 .oswald{
   font-family: 'Oswald', sans-serif;
@@ -35,6 +34,9 @@ code {
 }
 .txt3 {
   font-size: 25px;
+}
+.txt1{
+  font-size: 20px;
 }
 .tilt {
   transform: rotate(-5deg);
@@ -61,3 +63,12 @@ code {
 .blue{
   color: #2335d5;
 }
+.bk-gray{
+  background: rgb(228, 228, 228);
+}
+/* .edu-card{
+  width: 100%;
+  height: 140px;
+  padding: 1.5rem;
+  border-radius: 20px;
+} */
