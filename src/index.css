@@ -58,10 +58,10 @@ code {
   color: black;
 }
 .gray{
-  color: rgb(63, 63, 63);
+  color: rgb(90, 90, 90);
 }
 .blue{
-  color: #2335d5;
+  color: #2335d5; 
 }
 .bk-gray{
   background: rgb(228, 228, 228);
@@ -72,3 +72,12 @@ code {
   padding: 1.5rem;
   border-radius: 20px;
 } */
+.skillset{
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+}
+.hover:hover{
+  transform: scale(1.2);
+  transition: 500ms;
+}

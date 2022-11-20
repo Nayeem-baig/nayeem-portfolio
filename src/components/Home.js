@@ -1,20 +1,17 @@
 import { Button, Col, Row } from "react-bootstrap";
 import "../App.css";
-import Navi from "./Navi";
 import { AiFillLinkedin, AiFillGithub, AiFillFacebook } from "react-icons/ai";
 import { BsTwitter } from "react-icons/bs";
 import { FiArrowUpRight } from "react-icons/fi";
 import ReactTypingEffect from "react-typing-effect";
 import { ReactComponent as Hero } from "../assets/Code.svg";
+import Networks from "./Networks";
 const Home = () => {
   return (
     <div>
       <Row>
-        <div className="mb-5">
-          <Navi />
-        </div>
-        <Col>
-          <div className="info nunito bold align-self-center mt-5">
+        <Col className="mt-5">
+          <div className="info nunito bold justify-content-center align-self-center mt-5">
             <ReactTypingEffect
               className="intro black txt5"
               text={["Hi, I am Nayeem Baig..."]}
@@ -37,29 +34,11 @@ const Home = () => {
                 </a>
               </Button>
             </div>
-            <div className="networks d-flex justify-content-around txt10">
-              <a
-                href="https://www.linkedin.com/in/nayeem-baig-0668391ba"
-                target="_blank"
-              >
-                <AiFillLinkedin color="gray" />
-              </a>
-              <a href="https://github.com/Nayeem-baig" target="_blank">
-                <AiFillGithub color="gray" />
-              </a>
-              <a href="https://facebook.com" target="_blank">
-                <AiFillFacebook color="gray" />
-              </a>
-              <a href="https://twitter.com" target="_blank">
-                <BsTwitter color="gray" />
-              </a>
-            </div>
+          <Networks/>
           </div>
         </Col>
         <Col>
-          <div className="heroimg pb-5 mb-5">
-            <Hero />
-          </div>
+            <Hero className="heroimg pb-5 mb-5"/>
         </Col>
       </Row>
     </div>

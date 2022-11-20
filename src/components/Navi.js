@@ -6,7 +6,7 @@ import { BsTwitter } from "react-icons/bs";
 function Navi() {
   return (
     <>  
-    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">  
+    <Navbar collapseOnSelect className="m-0 p-0" sticky="top" expand="lg" bg="dark" variant="dark">  
       <Container>  
         <Navbar.Brand className=" navname gray"><h2>{'<Nayeem/>'}</h2></Navbar.Brand>  
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />  

@@ -7,17 +7,17 @@ const Education = () => {
   return (
     <div className="d-flex">
       <Row>
-        <div className="gary mb-5">
+        <div className="gray mb-5">
           <h1>
             <u>Education</u>
           </h1>
         </div>
-        <Col>
+        <Col lg="6">
           <div className="heroimg mb-5 pb-5 mb-5">
             <Study width="600" height="450" />
           </div>
         </Col>
-        <Col>
+        <Col lg="6">
           <div className="d-flex flex-column">
             <div className="edu-card  d-flex rounded">
               <div className="d-flex align-items-center">
