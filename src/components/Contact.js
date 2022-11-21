@@ -7,27 +7,27 @@ import MyDetails from "./Email";
 
 const Contact = () => {
   return (
-    <div className="contact mt-5" id="contact">
+    <div className="contact" id="contact">
       <Row>
-        <h1 className="gray"><u>Contact</u></h1>
-        <Col lg="5" className="m-5 d-flex flex-column align-items-start">
-            <p className="d-flex txt10 gray oswald">Get in touch</p>
-            <MyDetails />
-            <Call />
-            <div className="d-flex">
-              <Button
-                className="btn-secondary"
-                href="https://form.jotform.com/223204244564449"
-                target="_blank"
-              >
-                Send a Message!
-              </Button>
+        <h1 className="gray mt-5">
+          <u>Contact</u>
+        </h1>
+        <Col lg="5" className="ms-5 d-flex flex-column align-items-start">
+          <p className="d-flex txt10 gray oswald">Get in touch</p>
+          <MyDetails />
+          <Call />
+          <div className="d-flex">
+            <Button
+              className="btn-secondary"
+              href="https://form.jotform.com/223204244564449"
+              target="_blank"
+            >
+              Send a Message!
+            </Button>
           </div>
         </Col>
         <Col lg="5">
-          <div className="heroimg mb-5 pb-5 mb-5">
-            <Handshake width="600" height="450"  />
-          </div>
+          <Handshake className="con-img mb-5" width="600" height="450" />
         </Col>
       </Row>
     </div>

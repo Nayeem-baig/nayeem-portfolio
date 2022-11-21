@@ -4,17 +4,17 @@ import { AiFillLinkedin, AiFillGithub, AiFillFacebook } from "react-icons/ai";
 import { BsTwitter } from "react-icons/bs";
 const Networks = () => {
   return (
-    <div className="networks d-flex justify-content-around txt10">
-      <a href="https://www.linkedin.com/in/nayeem-baig-0668391ba" className="m-5 hover" target="_blank" > 
+    <div className="d-flex networks justify-content-around txt10">
+      <a href="https://www.linkedin.com/in/nayeem-baig-0668391ba" rel="noreferrer" className=" hover" target="_blank" > 
         <AiFillLinkedin color="gray" />
       </a>
-      <a href="https://github.com/Nayeem-baig" className="m-5 hover" target="_blank">
+      <a href="https://github.com/Nayeem-baig" rel="noreferrer" className=" hover" target="_blank">
         <AiFillGithub color="gray" />
       </a>
-      <a href="https://facebook.com" className="m-5 hover" target="_blank">
+      <a href="https://facebook.com" rel="noreferrer" className=" hover" target="_blank">
         <AiFillFacebook color="gray" />
       </a>
-      <a href="https://twitter.com" className="m-5 hover" target="_blank">
+      <a href="https://twitter.com" rel="noreferrer" className=" hover" target="_blank">
         <BsTwitter color="gray" />
       </a>
     </div>

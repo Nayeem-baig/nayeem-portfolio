@@ -3,13 +3,9 @@ import Container from "react-bootstrap/Container";
 import "../App.css";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import { AiFillLinkedin, AiFillGithub, AiFillFacebook } from "react-icons/ai";
-import { BsTwitter } from "react-icons/bs";
-import { Link, animateScroll as scroll } from "react-scroll";
-import { motion, useScroll } from "framer-motion";
+import { Link } from "react-scroll";
 
 function Navi() {
-  const { scrollYProgress } = useScroll();
 
   return (
     <>
@@ -47,9 +43,6 @@ function Navi() {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-      <motion.div className="progress-bar " style={{ scaleX: scrollYProgress }}>
-        hwdhb
-      </motion.div>
     </>
   );
 }

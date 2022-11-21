@@ -13,22 +13,22 @@ const Education = () => {
           </h1>
         </div>
         <Col lg="6">
-          <div className="heroimg mb-5 pb-5 mb-5">
-            <Study width="600" height="450" />
+          <div className="heroimg pb-5 mb-5">
+            <Study className="studyimg" width="600" height="450" />
           </div>
         </Col>
         <Col lg="6">
           <div className="d-flex flex-column">
-            <div className="edu-card  d-flex rounded">
+            <div className="d-flex rounded">
               <div className="d-flex align-items-center">
                 <Hat />
               </div>
-              <div className="d-flex flex-column ms-5 align-items-start">
-                <h4 className="">Bachelor of Computer Application</h4>
-                <div className="gray txt1">
+              <div className="edu-name d-flex flex-column ms-5 align-items-start">
+                <h4 className="edu-name ">Bachelor of Computer Application</h4>
+                <div className="edu-name gray txt1">
                   St. Francis De Sales Degree College
                 </div>
-                <div>2019-2022</div>
+                <div className="edu-name ">2019-2022</div>
               </div>
             </div>
             <hr
@@ -41,16 +41,16 @@ const Education = () => {
             />
           </div>
           <div className="d-flex flex-column">
-            <div className="edu-card  d-flex rounded">
+            <div className="d-flex rounded">
               <div className="d-flex align-items-center">
                 <Hat />
               </div>
-              <div className="d-flex flex-column ms-5 align-items-start">
-                <h4 className="">Pre-university CEBA</h4>
-                <div className="gray txt1">
+              <div className=" d-flex flex-column ms-5 align-items-start">
+                <h4 className="edu-name ">Pre-university CEBA</h4>
+                <div className="edu-name gray txt1">
                   St. Francis PU composite College
                 </div>
-                <div>2017-2019</div>
+                <div className="edu-name ">2017-2019</div>
               </div>
             </div>
             <hr
@@ -63,14 +63,14 @@ const Education = () => {
             />
           </div>
           <div className="d-flex flex-column">
-            <div className="edu-card  d-flex rounded">
+            <div className="d-flex rounded">
               <div className="d-flex align-items-center">
                 <Hat />
               </div>
               <div className="d-flex flex-column ms-5 align-items-start">
-                <h4 className="">SSLC</h4>
-                <div className="gray txt1">Our Lady of Fatima High School</div>
-                <div>2007-2017</div>
+                <h4 className="edu-name ">SSLC</h4>
+                <div className="edu-name gray txt1">Our Lady of Fatima High School</div>
+                <div className="edu-name ">2007-2017</div>
               </div>
             </div>
             <hr
