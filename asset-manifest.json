@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/nayeem-portfolio/static/css/main.35c00e4c.css",
-    "main.js": "/nayeem-portfolio/static/js/main.b88c22b8.js",
+    "main.css": "/nayeem-portfolio/static/css/main.b58264ec.css",
+    "main.js": "/nayeem-portfolio/static/js/main.1e63352d.js",
     "static/js/787.e5fb2298.chunk.js": "/nayeem-portfolio/static/js/787.e5fb2298.chunk.js",
     "static/media/Studying.svg": "/nayeem-portfolio/static/media/Studying.478c06d603d6ad95bf80f81fd1828110.svg",
     "static/media/Code.svg": "/nayeem-portfolio/static/media/Code.4d2f0b20ab173fe3ce37f08a4a2704c7.svg",
@@ -13,14 +13,15 @@
     "index.html": "/nayeem-portfolio/index.html",
     "static/media/Bootstrap.svg": "/nayeem-portfolio/static/media/Bootstrap.5d590f6c245312fdf16a7e8ab1d6ba44.svg",
     "static/media/Js.svg": "/nayeem-portfolio/static/media/Js.00f3e5cf8bcf4ae623b3835ca5791b15.svg",
-    "static/media/express.svg": "/nayeem-portfolio/static/media/express.632d3c32e6c8f71f7f7faf4fb71b945b.svg",
+    "static/media/css3.svg": "/nayeem-portfolio/static/media/css3.9cecabbf6ce67609c48bc4f280a11002.svg",
+    "static/media/Express.svg": "/nayeem-portfolio/static/media/Express.632d3c32e6c8f71f7f7faf4fb71b945b.svg",
     "static/media/Html.svg": "/nayeem-portfolio/static/media/Html.87f3f64abde68319b96661c04229b687.svg",
-    "main.35c00e4c.css.map": "/nayeem-portfolio/static/css/main.35c00e4c.css.map",
-    "main.b88c22b8.js.map": "/nayeem-portfolio/static/js/main.b88c22b8.js.map",
+    "main.b58264ec.css.map": "/nayeem-portfolio/static/css/main.b58264ec.css.map",
+    "main.1e63352d.js.map": "/nayeem-portfolio/static/js/main.1e63352d.js.map",
     "787.e5fb2298.chunk.js.map": "/nayeem-portfolio/static/js/787.e5fb2298.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.35c00e4c.css",
-    "static/js/main.b88c22b8.js"
+    "static/css/main.b58264ec.css",
+    "static/js/main.1e63352d.js"
   ]
 }
