@@ -7,15 +7,16 @@ import Skills from "./components/Skills";
 import Networks from "./components/Networks";
 
 function App() {
+
   return (
     <div className="App">
-      <Navi/>
+      <Navi />
       <Home />
       <Education />
-      <Skills/>
+      <Skills />
       <Contact />
       <div className="d-flex flex-column align-items-center justify-content-between pb-5">
-      <Networks />
+        <Networks />
       </div>
     </div>
   );

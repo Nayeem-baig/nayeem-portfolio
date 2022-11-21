@@ -8,7 +8,7 @@ import { ReactComponent as Hero } from "../assets/Code.svg";
 import Networks from "./Networks";
 const Home = () => {
   return (
-    <div>
+    <div className="home" id="home">
       <Row>
         <Col className="mt-5">
           <div className="info nunito bold justify-content-center align-self-center mt-5">
@@ -22,23 +22,20 @@ const Home = () => {
               This is my portfolio also built using React.js.
             </p>
             <div className="resume mb-5">
-              <Button className="btn-secondary">
-                {" "}
-                <a
-                  className="white txtDecNon"
-                  href="https://docs.google.com/document/d/1I2QDZiQLIdRP37vZdvSvf44ZMLerR7lyCXveO8oosdg/edit?usp=sharing"
-                  target="_blank"
-                >
-                  View Resume
-                  <FiArrowUpRight />
-                </a>
+              <Button
+                href="https://docs.google.com/document/d/1I2QDZiQLIdRP37vZdvSvf44ZMLerR7lyCXveO8oosdg/edit?usp=sharing"
+                target="_blank"
+                className="btn-secondary btn-hover txtDecNon"
+              >
+                View Resume
+                <FiArrowUpRight />
               </Button>
             </div>
-          <Networks/>
+            <Networks />
           </div>
         </Col>
         <Col>
-            <Hero className="heroimg pb-5 mb-5"/>
+          <Hero className="heroimg pb-5 mb-5" />
         </Col>
       </Row>
     </div>

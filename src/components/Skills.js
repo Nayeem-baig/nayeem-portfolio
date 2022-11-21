@@ -3,20 +3,23 @@ import { Col, Row } from "react-bootstrap";
 import "../App.css";
 // import { ReactComponent as Skillsimg } from "../assets/Skills.svg";
 import { ReactComponent as HTMLimg } from "../assets/Html.svg";
+import { ReactComponent as Css } from "../assets/css3.svg";
 import { ReactComponent as Js } from "../assets/Js.svg";
 import { ReactComponent as Bootstrap } from "../assets/Bootstrap.svg";
 import { ReactComponent as MongoDB } from "../assets/Mongodb.svg";
-import { ReactComponent as Express } from "../assets/express.svg";
+import { ReactComponent as Express } from "../assets/Express.svg";
 import { ReactComponent as Reactimg } from "../assets/Reactjs.svg";
 import { ReactComponent as Nodeimg } from "../assets/Nodejs.svg";
+
 const Skills = () => {
   return (
-    <div className="">
+
+    <div className="skills" id="skills">
       <Row>
         <h1 className="gray mb-5">
           <u className="black">Skills</u>
         </h1>
-        <Col lg="12" className="d-flex justify-content-around mb-5">
+        <Col  className="d-flex justify-content-around mb-5">
           <Col lg="1">
             <div className="hover d-flex flex-column oswald justify-content-center align-items-center skillset shadow-lg mb-5 rounded">
               <HTMLimg className="mb-2" />
@@ -31,7 +34,7 @@ const Skills = () => {
           </Col>
           <Col lg="1">
             <div className="hover d-flex flex-column oswald justify-content-center align-items-center skillset shadow-lg mb-5 rounded">
-              <HTMLimg className="mb-2" />
+              <Css className="mb-2" />
               CSS
             </div>
           </Col>

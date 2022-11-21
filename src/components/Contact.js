@@ -7,6 +7,7 @@ import MyDetails from "./Email";
 
 const Contact = () => {
   return (
+    <div className="contact mt-5" id="contact">
       <Row>
         <h1 className="gray"><u>Contact</u></h1>
         <Col lg="5" className="m-5 d-flex flex-column align-items-start">
@@ -29,6 +30,7 @@ const Contact = () => {
           </div>
         </Col>
       </Row>
+    </div>
   );
 };
 

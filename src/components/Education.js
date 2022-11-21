@@ -5,7 +5,7 @@ import { ReactComponent as Study } from "../assets/Studying.svg";
 import { ReactComponent as Hat } from "../assets/Hat.svg";
 const Education = () => {
   return (
-    <div className="d-flex">
+    <div className="education d-flex mt-5" id="education">
       <Row>
         <div className="gray mb-5">
           <h1>
@@ -24,9 +24,7 @@ const Education = () => {
                 <Hat />
               </div>
               <div className="d-flex flex-column ms-5 align-items-start">
-                <h4 className="">
-                  Bachelor of Computer Application
-                </h4>
+                <h4 className="">Bachelor of Computer Application</h4>
                 <div className="gray txt1">
                   St. Francis De Sales Degree College
                 </div>
@@ -42,15 +40,13 @@ const Education = () => {
               }}
             />
           </div>
-        <div className="d-flex flex-column">
+          <div className="d-flex flex-column">
             <div className="edu-card  d-flex rounded">
               <div className="d-flex align-items-center">
                 <Hat />
               </div>
               <div className="d-flex flex-column ms-5 align-items-start">
-                <h4 className="">
-                  Pre-university CEBA
-                </h4>
+                <h4 className="">Pre-university CEBA</h4>
                 <div className="gray txt1">
                   St. Francis PU composite College
                 </div>
@@ -66,18 +62,14 @@ const Education = () => {
               }}
             />
           </div>
-        <div className="d-flex flex-column">
+          <div className="d-flex flex-column">
             <div className="edu-card  d-flex rounded">
               <div className="d-flex align-items-center">
                 <Hat />
               </div>
               <div className="d-flex flex-column ms-5 align-items-start">
-                <h4 className="">
-                  SSLC
-                </h4>
-                <div className="gray txt1">
-                  Oud Lady of Fatima High School
-                </div>
+                <h4 className="">SSLC</h4>
+                <div className="gray txt1">Our Lady of Fatima High School</div>
                 <div>2007-2017</div>
               </div>
             </div>
