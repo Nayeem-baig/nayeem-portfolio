@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/nayeem-portfolio/static/css/main.b58264ec.css",
-    "main.js": "/nayeem-portfolio/static/js/main.1e63352d.js",
+    "main.css": "/nayeem-portfolio/static/css/main.33ebcaa9.css",
+    "main.js": "/nayeem-portfolio/static/js/main.392fcd34.js",
     "static/js/787.e5fb2298.chunk.js": "/nayeem-portfolio/static/js/787.e5fb2298.chunk.js",
     "static/media/Studying.svg": "/nayeem-portfolio/static/media/Studying.478c06d603d6ad95bf80f81fd1828110.svg",
     "static/media/Code.svg": "/nayeem-portfolio/static/media/Code.4d2f0b20ab173fe3ce37f08a4a2704c7.svg",
@@ -16,12 +16,12 @@
     "static/media/css3.svg": "/nayeem-portfolio/static/media/css3.9cecabbf6ce67609c48bc4f280a11002.svg",
     "static/media/Express.svg": "/nayeem-portfolio/static/media/Express.632d3c32e6c8f71f7f7faf4fb71b945b.svg",
     "static/media/Html.svg": "/nayeem-portfolio/static/media/Html.87f3f64abde68319b96661c04229b687.svg",
-    "main.b58264ec.css.map": "/nayeem-portfolio/static/css/main.b58264ec.css.map",
-    "main.1e63352d.js.map": "/nayeem-portfolio/static/js/main.1e63352d.js.map",
+    "main.33ebcaa9.css.map": "/nayeem-portfolio/static/css/main.33ebcaa9.css.map",
+    "main.392fcd34.js.map": "/nayeem-portfolio/static/js/main.392fcd34.js.map",
     "787.e5fb2298.chunk.js.map": "/nayeem-portfolio/static/js/787.e5fb2298.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b58264ec.css",
-    "static/js/main.1e63352d.js"
+    "static/css/main.33ebcaa9.css",
+    "static/js/main.392fcd34.js"
   ]
 }
