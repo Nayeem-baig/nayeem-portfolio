@@ -2,9 +2,19 @@ import React from "react";
 import "../App.css";
 import { AiFillLinkedin, AiFillGithub, AiFillFacebook } from "react-icons/ai";
 import { BsTwitter } from "react-icons/bs";
+import { motion } from "framer-motion";
 const Networks = () => {
   return (
-    <div className="d-flex networks justify-content-around txt10">
+    <motion.div 
+    initial={{
+      x: 0,
+      y: 0,
+    }}
+    animate={{
+      x: 0,
+      y: 50,
+    }}
+    className="d-flex networks justify-content-around txt10">
       <a href="https://www.linkedin.com/in/nayeem-baig-0668391ba" rel="noreferrer" className=" hover" target="_blank" > 
         <AiFillLinkedin color="gray" />
       </a>
@@ -17,7 +27,7 @@ const Networks = () => {
       <a href="https://twitter.com" rel="noreferrer" className=" hover" target="_blank">
         <BsTwitter color="gray" />
       </a>
-    </div>
+    </motion.div>
   );
 };
 

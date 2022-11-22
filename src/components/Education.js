@@ -28,17 +28,18 @@ const Education = () => {
                 <div className="edu-name gray txt1">
                   St. Francis De Sales Degree College
                 </div>
-                <div className="edu-name ">2019-2022</div>
+                <div className="edu-name oswald">2019-2022</div>
+                <hr
+                  style={{
+                    background: "gray",
+                    color: "black",
+                    borderColor: "gray",
+                    height: "3px",
+                    width: "100%",
+                  }}
+                />
               </div>
             </div>
-            <hr
-              style={{
-                background: "gray",
-                color: "black",
-                borderColor: "gray",
-                height: "3px",
-              }}
-            />
           </div>
           <div className="d-flex flex-column">
             <div className="d-flex rounded">
@@ -50,17 +51,18 @@ const Education = () => {
                 <div className="edu-name gray txt1">
                   St. Francis PU composite College
                 </div>
-                <div className="edu-name ">2017-2019</div>
+                <div className="edu-name oswald ">2017-2019</div>
+                <hr
+                  style={{
+                    background: "gray",
+                    color: "black",
+                    borderColor: "gray",
+                    height: "3px",
+                    width: "100%",
+                  }}
+                />
               </div>
             </div>
-            <hr
-              style={{
-                background: "gray",
-                color: "black",
-                borderColor: "gray",
-                height: "3px",
-              }}
-            />
           </div>
           <div className="d-flex flex-column">
             <div className="d-flex rounded">
@@ -69,18 +71,21 @@ const Education = () => {
               </div>
               <div className="d-flex flex-column ms-5 align-items-start">
                 <h4 className="edu-name ">SSLC</h4>
-                <div className="edu-name gray txt1">Our Lady of Fatima High School</div>
-                <div className="edu-name ">2007-2017</div>
+                <div className="edu-name gray txt1">
+                  Our Lady of Fatima High School
+                </div>
+                <div className="edu-name oswald">2007-2017</div>
+                <hr
+                  style={{
+                    background: "gray",
+                    color: "black",
+                    borderColor: "gray",
+                    height: "3px",
+                    width: "100%",
+                  }}
+                />
               </div>
             </div>
-            <hr
-              style={{
-                background: "gray",
-                color: "black",
-                borderColor: "gray",
-                height: "3px",
-              }}
-            />
           </div>
         </Col>
       </Row>

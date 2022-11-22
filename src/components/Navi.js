@@ -32,6 +32,9 @@ function Navi() {
                 <Link to="education" spy={true} offset={-70} duration={300}>
                   <p className="m-3 oswald ">Education</p>
                 </Link>
+                <Link to="internship" spy={true} offset={-70} duration={300}>
+                  <p className="m-3 oswald ">Experience</p>
+                </Link>
                 <Link to="skills" spy={true} offset={-70} duration={300}>
                   <p className="m-3 oswald ">Skills</p>
                 </Link>
