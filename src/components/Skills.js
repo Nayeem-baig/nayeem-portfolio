@@ -12,64 +12,79 @@ import { ReactComponent as Reactimg } from "../assets/Reactjs.svg";
 import { ReactComponent as Nodeimg } from "../assets/Nodejs.svg";
 
 const Skills = () => {
-  return (
+  const skillRow1 = [
+    {
+      id: `1`,
+      title: "HTML",
+      Image: HTMLimg,
+    },
+    {
+      id: `2`,
+      title: "Javascript",
+      Image: Js,
+    },
+    {
+      id: `3`,
+      title: "CSS",
+      Image: Css,
+    },
+    {
+      id: `4`,
+      title: "Bootstrap",
+      Image: Bootstrap,
+    },
+  ];
+  const skillRow2 = [
+    {
+      id: `5`,
+      title: "Mongo DB",
+      Image: MongoDB,
+    },
+    {
+      id: `6`,
+      title: "Express js",
+      Image: Express,
+    },
+    {
+      id: `7`,
+      title: "React Js",
+      Image: Reactimg,
+    },
+    ,
+    {
+      id: `8`,
+      title: "Node Js",
+      Image: Nodeimg,
+    },
+  ];
 
+  return (
     <div className="skills" id="skills">
       <Row>
         <h1 className="gray mb-5">
           <u className="black">Skills</u>
         </h1>
-        <Col  className="d-flex justify-content-around mb-5">
-          <Col lg="1">
-            <div className="hover d-flex flex-column oswald justify-content-center align-items-center skillset shadow-lg mb-5 rounded">
-              <HTMLimg className="mb-2" />
-              HTML
-            </div>
-          </Col>
-          <Col lg="1">
-            <div className="hover d-flex flex-column oswald justify-content-center align-items-center skillset shadow-lg mb-5 rounded">
-              <Js className="mb-2" />
-              Javascript
-            </div>
-          </Col>
-          <Col lg="1">
-            <div className="hover d-flex flex-column oswald justify-content-center align-items-center skillset shadow-lg mb-5 rounded">
-              <Css className="mb-2" />
-              CSS
-            </div>
-          </Col>
-          <Col lg="1">
-            <div className="hover d-flex flex-column oswald justify-content-center align-items-center skillset shadow-lg mb-5 rounded">
-              <Bootstrap className="mb-2" />
-              Bootstrap
-            </div>
-          </Col>
+        <Col className="d-flex justify-content-around mb-5">
+          {skillRow1.map(({ id, title, Image }) => (
+            <Col key={id} lg="1">
+              <div className="hover d-flex flex-column oswald justify-content-center align-items-center skillset shadow-lg mb-5 rounded">
+                <Image />
+                {title}
+              </div>
+            </Col>
+          ))}
         </Col>
-        <Col lg="12" className="d-flex justify-content-around mb-5">
-          <Col lg="1">
-            <div className="hover d-flex flex-column oswald justify-content-center align-items-center skillset shadow-lg mb-5 rounded">
-              <MongoDB className="mb-2" />
-              Mongo DB
-            </div>
-          </Col>
-          <Col lg="1">
-            <div className="hover d-flex flex-column oswald justify-content-center align-items-center skillset shadow-lg mb-5 rounded">
-              <Express className="mb-2" />
-              Express js
-            </div>
-          </Col>
-          <Col lg="1">
-            <div className="hover d-flex flex-column oswald justify-content-center align-items-center skillset shadow-lg mb-5 rounded">
-              <Reactimg className="mb-2" />
-              React Js
-            </div>
-          </Col>
-          <Col lg="1">
-            <div className="hover d-flex flex-column oswald justify-content-center align-items-center skillset shadow-lg mb-5 rounded">
-              <Nodeimg className="mb-2" />
-              Node Js
-            </div>
-          </Col>
+        <Col lg="12" className="d-flex justify-content-around">
+        <Col className="d-flex justify-content-around">
+          {skillRow2.map(({ id, title, Image }) => (
+            <Col key={id} lg="1">
+              <div className="hover d-flex flex-column oswald justify-content-center align-items-center skillset shadow-lg mb-5 rounded">
+                <Image />
+                {title}
+              </div>
+            </Col>
+          ))}
+        </Col>
         </Col>
       </Row>
     </div>
