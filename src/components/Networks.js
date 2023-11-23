@@ -24,7 +24,7 @@ const Networks = () => {
       <a href="https://facebook.com" rel="noreferrer" className=" hover" target="_blank">
         <AiFillFacebook color="gray" />
       </a>
-      <a href="https://twitter.com" rel="noreferrer" className=" hover" target="_blank">
+      <a href="https://twitter.com/NayeemBaig_" rel="noreferrer" className=" hover" target="_blank">
         <BsTwitter color="gray" />
       </a>
     </motion.div>

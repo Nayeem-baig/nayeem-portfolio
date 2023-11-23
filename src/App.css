@@ -1,3 +1,48 @@
 .App {
   text-align: center;
 }
+/* Scrollbar Container */
+.custom-scrollbar {
+  position: relative;
+  max-height: 100vh;
+  /* Set the maximum height for the container */
+  overflow-y: auto;
+  overflow-x: hidden;
+  /* Hide the horizontal scrollbar */
+  scrollbar-width: thin;
+  /* Firefox */
+  scrollbar-color: #575857 #fff;
+  /* Firefox */
+}
+
+/* Webkit (Chrome, Safari, Edge) */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 5px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #575857;
+  /* Color of the thumb */
+  border-radius: 5px;
+  /* Rounded corners of the thumb */
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background-color: #fff;
+  /* Color of the track */
+}
+
+/* Firefox */
+.custom-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: #575857 #fff;
+}
+
+/* Optional: Hover effect on the thumb */
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background-color: #575857;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:active {
+  background-color: #575857;
+}

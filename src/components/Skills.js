@@ -7,9 +7,11 @@ import { ReactComponent as Css } from "../assets/css3.svg";
 import { ReactComponent as Js } from "../assets/Js.svg";
 import { ReactComponent as Bootstrap } from "../assets/Bootstrap.svg";
 import { ReactComponent as MongoDB } from "../assets/Mongodb.svg";
-import { ReactComponent as Express } from "../assets/Express.svg";
+import { ReactComponent as Express } from "../assets/express.svg";
 import { ReactComponent as Reactimg } from "../assets/Reactjs.svg";
 import { ReactComponent as Nodeimg } from "../assets/Nodejs.svg";
+import { ReactComponent as Ts } from "../assets/typescript.svg";
+import { ReactComponent as Git } from "../assets/git-scm-icon.svg";
 
 const Skills = () => {
   const skillRow1 = [
@@ -33,6 +35,11 @@ const Skills = () => {
       title: "Bootstrap",
       Image: Bootstrap,
     },
+    {
+      id: `5`,
+      title: "TypeScript",
+      Image: Ts,
+    }
   ];
   const skillRow2 = [
     {
@@ -50,11 +57,14 @@ const Skills = () => {
       title: "React Js",
       Image: Reactimg,
     },
-    ,
     {
       id: `8`,
       title: "Node Js",
       Image: Nodeimg,
+    },{
+      id: `9`,
+      title: "Git",
+      Image: Git,
     },
   ];
 
