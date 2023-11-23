@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/nayeem-portfolio/static/css/main.bac8e976.css",
-    "main.js": "/nayeem-portfolio/static/js/main.2af7b2b3.js",
+    "main.css": "/nayeem-portfolio/static/css/main.4fcd1a73.css",
+    "main.js": "/nayeem-portfolio/static/js/main.2ddce9b3.js",
     "static/js/787.e5fb2298.chunk.js": "/nayeem-portfolio/static/js/787.e5fb2298.chunk.js",
     "static/media/Studying.svg": "/nayeem-portfolio/static/media/Studying.478c06d603d6ad95bf80f81fd1828110.svg",
+    "static/media/Nayeem CV.pdf": "/nayeem-portfolio/static/media/Nayeem CV.85b2bbcc872b26734dd2.pdf",
     "static/media/ProjectImg.svg": "/nayeem-portfolio/static/media/ProjectImg.7014ba8b6a8e6e7370131568960f8333.svg",
     "static/media/Code.svg": "/nayeem-portfolio/static/media/Code.4d2f0b20ab173fe3ce37f08a4a2704c7.svg",
     "static/media/InternSvg.svg": "/nayeem-portfolio/static/media/InternSvg.81884e923b6cf7ad99607ad6ca4d338b.svg",
@@ -11,20 +12,22 @@
     "static/media/letter.svg": "/nayeem-portfolio/static/media/letter.b9d429b4eb52a44da2956dcd124e1255.svg",
     "static/media/Nodejs.svg": "/nayeem-portfolio/static/media/Nodejs.502737ea1f44b9be4170cafd2bace4e7.svg",
     "static/media/Reactjs.svg": "/nayeem-portfolio/static/media/Reactjs.6c1d44b8c59f0f72ff199a54ceed774c.svg",
-    "static/media/Hat.svg": "/nayeem-portfolio/static/media/Hat.b19a68bae8147b437e5d96afcc8aadff.svg",
+    "static/media/Hat.svg": "/nayeem-portfolio/static/media/Hat.8ee2e691e27f81b89b1aa08acc85cfe6.svg",
     "static/media/Mongodb.svg": "/nayeem-portfolio/static/media/Mongodb.0781b723446e1f8a1734f7831a9c3313.svg",
     "index.html": "/nayeem-portfolio/index.html",
     "static/media/Bootstrap.svg": "/nayeem-portfolio/static/media/Bootstrap.5d590f6c245312fdf16a7e8ab1d6ba44.svg",
     "static/media/Js.svg": "/nayeem-portfolio/static/media/Js.00f3e5cf8bcf4ae623b3835ca5791b15.svg",
+    "static/media/typescript.svg": "/nayeem-portfolio/static/media/typescript.a6305a733dd55243980aec55f96f70c5.svg",
     "static/media/css3.svg": "/nayeem-portfolio/static/media/css3.9cecabbf6ce67609c48bc4f280a11002.svg",
-    "static/media/Express.svg": "/nayeem-portfolio/static/media/Express.632d3c32e6c8f71f7f7faf4fb71b945b.svg",
+    "static/media/express.svg": "/nayeem-portfolio/static/media/express.632d3c32e6c8f71f7f7faf4fb71b945b.svg",
+    "static/media/git-scm-icon.svg": "/nayeem-portfolio/static/media/git-scm-icon.6d27b5e0cde4ddb87e031ca706aa8350.svg",
     "static/media/Html.svg": "/nayeem-portfolio/static/media/Html.87f3f64abde68319b96661c04229b687.svg",
-    "main.bac8e976.css.map": "/nayeem-portfolio/static/css/main.bac8e976.css.map",
-    "main.2af7b2b3.js.map": "/nayeem-portfolio/static/js/main.2af7b2b3.js.map",
+    "main.4fcd1a73.css.map": "/nayeem-portfolio/static/css/main.4fcd1a73.css.map",
+    "main.2ddce9b3.js.map": "/nayeem-portfolio/static/js/main.2ddce9b3.js.map",
     "787.e5fb2298.chunk.js.map": "/nayeem-portfolio/static/js/787.e5fb2298.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bac8e976.css",
-    "static/js/main.2af7b2b3.js"
+    "static/css/main.4fcd1a73.css",
+    "static/js/main.2ddce9b3.js"
   ]
 }
